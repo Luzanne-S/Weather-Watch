@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.card-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 550px;
+}
+.watch {
+  position: absolute;
+  width: 520px;
+  height: auto;
+  display: block;
+  left: 500px;
+  z-index: -1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 65%;
+  max-width: 300px;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  font-size: medium;
+  margin-top: 30px;
+}
+.searchBar {
+  width: 500px;
+}
+.button,
+#celsius-link,
+#fahrenheit-link {
+  color: #3f4e4f;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.col1 {
+  width: fit-content;
+}
+.col {
+  margin-top: -60px;
+}
+li {
+  font-size: 10px;
+  list-style-type: none;
+}
+.date {
+  font-size: 10px;
+  margin-top: 100px;
+}
+.temperature {
+  font-size: 40px;
+}
+.units {
+  font-size: small;
+  position: relative;
+  bottom: 18px;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+#icon {
+  display: block;
+  margin: auto;
+  width: 60px;
+  height: auto;
+}
+form {
+  margin-left: 15%;
+}
+
+form input,
+textarea:focus,
+input:focus,
+button {
+  background-color: transparent;
+}
+
+form input {
+  border-style: none;
+  text-decoration: underline;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+button {
+  border: none;
+}
