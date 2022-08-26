@@ -1,6 +1,7 @@
 # Weather-Watch
 
 ### Made with:
+
 - HTML
 - CSS
 - Javascript
@@ -9,5 +10,4 @@
 
 ### Screenshot
 
-![](smart watch.png)
-
+![](/smart watch.png)
