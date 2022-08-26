@@ -8,6 +8,6 @@
 - Axios
 - Open Weather Api
 
-### Screenshot
+### Live Site
 
-![](/smart watch.png)
+https://luzanne-s.github.io/Weather-Watch/
